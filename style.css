@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+*{
+	font-family: 'Vollkorn', serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#head{
+	margin: 0;
+	padding: 0;
+}
+
+#head{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	object-fit: cover;
+	background-attachment: fixed;
+}
+
+#head{
+	color: #fff;
+}
+
+#logo{
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	background: rgba(0,0,0,0.4);
+	font-size: 30px;
+	padding: 10px;
+	padding-left: 45%;
+	transition: all 0.5s ;
+}
+
+#logo:hover{
+	background: rgba(0,0,0,0.7);
+	font-size: 35px;
+	padding: 14px;
+	padding-left: 44%;
+	transition: all 0.5s ;
+}
+
+.title h1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.title h1{
+	padding-top: 8%;
+	padding-left: 30%;
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 100px;
+}
+
+.title h2{
+	padding-top: 0px;
+	padding-left: 17%;
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+#content{
+	margin: 0;
+	padding: 0;
+}
+
+#about{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(img/business-2998905_1920.png);
+	padding-bottom: 500px;
+	background-size: 100%;
+	object-fit: cover;
+	background-repeat: no-repeat;
+}
+
+
+#about h2{
+	width: 272px;
+	margin: auto;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+#about h1{
+	width: 410px;
+	margin: auto;
+	font-size: 100px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	background: #5A453A;
+	padding: 20px;
+	color: #fff;
+}
+
+#about h3 {
+	color: #000;
+	font-size: 25px;
+	width: 712px;
+	margin: auto;
+}
+
