@@ -35,20 +35,25 @@ body{
 	padding: 0;
 }
 
+.in-logo{
+	width: 200px;
+	margin: auto;
+}
+
+
+
 #logo{
 	background: rgba(0,0,0,0.4);
 	font-size: 30px;
-	padding: 10px;
-	padding-left: 45%;
 	transition: all 0.5s ;
+	width: 100%;
 }
 
 #logo:hover{
-	background: rgba(0,0,0,0.7);
 	font-size: 35px;
-	padding: 14px;
-	padding-left: 44%;
 	transition: all 0.5s ;
+	margin: auto;
+	width: 100%;
 }
 
 .title h1 a{
@@ -57,20 +62,33 @@ body{
 }
 
 .title h1{
-	padding-top: 8%;
-	padding-left: 30%;
+	width: 720px;
+	margin: auto;
 	text-shadow: 2px 2px 2px #000;
 	text-transform: uppercase;
 	font-size: 100px;
+	margin-top: 200px;
 }
 
 .title h2{
-	padding-top: 0px;
-	padding-left: 17%;
+	width: 1135px;
+	margin: auto;
 	text-shadow: 2px 2px 2px #000;
 	text-transform: uppercase;
 	font-size: 25px;
 }
+
+@media screen and (min-width:480px) and (max-width:800px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops
+
+  */
+}
+
+
+
+
+
+
 
 #content{
 	margin: 0;
