@@ -56,18 +56,29 @@ body{
 	width: 100%;
 }
 
+.title> h1{
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 100px;
+	margin-top: 200px;
+	width: 720px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
 .title h1 a{
 	text-decoration: none;
 	color: #fff;
 }
 
-.title h1{
-	width: 720px;
-	margin: auto;
+.title>h1>a{
 	text-shadow: 2px 2px 2px #000;
 	text-transform: uppercase;
 	font-size: 100px;
 	margin-top: 200px;
+	width: 720px;
+	margin: auto;
 }
 
 .title h2{
@@ -77,18 +88,6 @@ body{
 	text-transform: uppercase;
 	font-size: 25px;
 }
-
-@media screen and (min-width:480px) and (max-width:800px) {
-  /* Target landscape smartphones, portrait tablets, narrow desktops
-
-  */
-}
-
-
-
-
-
-
 
 #content{
 	margin: 0;
@@ -126,10 +125,168 @@ body{
 	color: #fff;
 }
 
-#about h3 {
+#about div {
 	color: #000;
 	font-size: 25px;
-	width: 712px;
+	margin: auto;
+	font-family: 'Vollkorn', serif;
+}
+
+.c1{
+	width:715px;
+	margin: auto; 
+}
+
+.c2{
+	width:405px;
+	margin: auto; 
+}
+
+.c3{
+	width:280px;
+	margin: auto; 
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .title h2{
+	width: 680px;
+	margin: auto;
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#about h1{
+	width: 410px;
+	margin: auto;
+	font-size: 100px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	background: #5A453A;
+	padding: 20px;
+	color: #fff;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+  
+	#head{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	height: 50vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	object-fit: cover;
+	background-attachment: fixed;
+}
+
+  .title> h1{
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-top: 10px;
+	width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.title h1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.title>h1>a{
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-top: 200px;
+	width: 400px;
 	margin: auto;
 }
+
+.title h2{
+	width: 425px;
+	margin: auto;
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#about div {
+	color: #000;
+	font-size: 10px;
+	margin: auto;
+	font-family: 'Vollkorn', serif;
+}
+
+.c1{
+	width:415px;
+	margin: auto; 
+}
+
+.c2{
+	width:305px;
+	margin: auto; 
+}
+
+.c3{
+	width:180px;
+	margin: auto; 
+}
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:425px) {
+  
+
+#about>div {
+	color: #000;
+	font-size: 20px;
+	margin: auto;
+	font-family: 'Vollkorn', serif;
+}
+
+.c1{
+	font-size: 15px;
+	width:425px;
+	margin: auto; 
+}
+
+.c2{
+	width:320px;
+	margin: auto; 
+}
+
+.c3{
+	width:220px;
+	margin: auto; 
+}
+
+#about h1{
+	width: 220px;
+	margin: auto;
+	font-size: 50px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	background: #5A453A;
+	padding: 20px;
+	color: #fff;
+}
+
+}
+
+
+
+
+
+
 
