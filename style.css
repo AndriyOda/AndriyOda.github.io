@@ -101,7 +101,9 @@ body{
 }
 }
 
-@media screen and (min-width:1024px) and (max-width:1440px) {
+
+
+@media screen and (min-width:786px) and (max-width:1024px) {
 	#head{
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
@@ -140,12 +142,12 @@ body{
 
 .title h1{
 	font-size: 30px;
-	margin-top: 10%;
+	margin-top: 7%;
 }
 
 .title h2{
 	font-size: 10px;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
 }
 }
 
