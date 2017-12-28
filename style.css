@@ -12,6 +12,8 @@ body{
 #head{
 	margin: 0;
 	padding: 0;
+	color: #fff;
+	text-shadow: 0px 5px 5px #000;
 }
 
 #head{
@@ -26,67 +28,24 @@ body{
 	background-attachment: fixed;
 }
 
-#head{
-	color: #fff;
+.title h1{
+	font-size: 100px;
+	margin-top: 20%;
+}
+
+.title h2{
+	font-size: 25px;
+	margin-bottom: 20%;
 }
 
 #logo{
 	margin: 0;
 	padding: 0;
-}
-
-.in-logo{
-	width: 200px;
-	margin: auto;
-}
-
-
-
-#logo{
-	background: rgba(0,0,0,0.4);
-	font-size: 30px;
-	transition: all 0.5s ;
 	width: 100%;
-}
-
-#logo:hover{
-	font-size: 35px;
-	transition: all 0.5s ;
-	margin: auto;
-	width: 100%;
-}
-
-.title> h1{
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
-	font-size: 100px;
-	margin-top: 200px;
-	width: 720px;
-	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 20px;
-}
-
-.title h1 a{
-	text-decoration: none;
-	color: #fff;
-}
-
-.title>h1>a{
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
-	font-size: 100px;
-	margin-top: 200px;
-	width: 720px;
-	margin: auto;
-}
-
-.title h2{
-	width: 1135px;
-	margin: auto;
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
-	font-size: 25px;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
 }
 
 #content{
@@ -95,89 +54,35 @@ body{
 }
 
 #about{
-	margin: 0;
-	padding: 0;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3)), url(img/business-2998905_1920.png);
+	background-image: -o-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(img/business-2998905_1920.png);
 	background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(img/business-2998905_1920.png);
-	padding-bottom: 500px;
+	padding-top: 50px;	
 	background-size: 100%;
 	object-fit: cover;
 	background-repeat: no-repeat;
+	padding-bottom: 500px;
 }
-
 
 #about h2{
-	width: 272px;
-	margin: auto;
 	font-size: 50px;
-	margin-top: 50px;
 }
 
 #about h1{
-	width: 410px;
-	margin: auto;
-	font-size: 100px;
-	margin-top: 10px;
-	text-transform: uppercase;
-	margin-bottom: 40px;
-	border-radius: 20px;
-	background: #5A453A;
-	padding: 20px;
-	color: #fff;
+	font-size: 70px;
 }
 
-#about div {
-	color: #000;
-	font-size: 25px;
-	margin: auto;
-	font-family: 'Vollkorn', serif;
+#about h3{
+	font-size: 30px;
+	max-width: 700px;
 }
 
-.c1{
-	width:715px;
-	margin: auto; 
-}
-
-.c2{
-	width:405px;
-	margin: auto; 
-}
-
-.c3{
-	width:280px;
-	margin: auto; 
-}
-
-
-@media screen and (min-width:768px) and (max-width:1024px) {
-  .title h2{
-	width: 680px;
-	margin: auto;
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
-	font-size: 15px;
-}
-
-#about h1{
-	width: 410px;
-	margin: auto;
-	font-size: 100px;
-	margin-top: 10px;
-	text-transform: uppercase;
-	margin-bottom: 40px;
-	border-radius: 20px;
-	background: #5A453A;
-	padding: 20px;
-	color: #fff;
-}
-}
-
-@media screen and (min-width:320px) and (max-width:425px) {
-  
+@media screen and (min-width:1024px) and (max-width:1440px) {
 	#head{
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
-	height: 50vh;
+	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -185,108 +90,85 @@ body{
 	background-attachment: fixed;
 }
 
-  .title> h1{
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
-	font-size: 25px;
-	margin-top: 10px;
-	width: 400px;
-	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 20px;
-}
-
-.title h1 a{
-	text-decoration: none;
-	color: #fff;
-}
-
-.title>h1>a{
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
+.title h1{
 	font-size: 50px;
-	margin-top: 200px;
-	width: 400px;
-	margin: auto;
+	margin-top: 20%;
 }
 
 .title h2{
-	width: 425px;
-	margin: auto;
-	text-shadow: 2px 2px 2px #000;
-	text-transform: uppercase;
 	font-size: 15px;
+	margin-bottom: 20%;
+}
 }
 
-#about div {
-	color: #000;
-	font-size: 10px;
-	margin: auto;
-	font-family: 'Vollkorn', serif;
+@media screen and (min-width:1024px) and (max-width:1440px) {
+	#head{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	object-fit: cover;
+	background-attachment: fixed;
 }
 
-.c1{
-	width:415px;
-	margin: auto; 
-}
-
-.c2{
-	width:305px;
-	margin: auto; 
-}
-
-.c3{
-	width:180px;
-	margin: auto; 
-}
-
-}
-
-
-@media screen and (min-width:320px) and (max-width:425px) {
-  
-
-#about>div {
-	color: #000;
-	font-size: 20px;
-	margin: auto;
-	font-family: 'Vollkorn', serif;
-}
-
-.c1{
-	font-size: 15px;
-	width:425px;
-	margin: auto; 
-}
-
-.c2{
-	width:320px;
-	margin: auto; 
-}
-
-.c3{
-	width:220px;
-	margin: auto; 
-}
-
-#about h1{
-	width: 220px;
-	margin: auto;
+.title h1{
 	font-size: 50px;
-	margin-top: 10px;
-	text-transform: uppercase;
-	margin-bottom: 40px;
-	border-radius: 20px;
-	background: #5A453A;
-	padding: 20px;
-	color: #fff;
+	margin-top: 15%;
 }
 
+.title h2{
+	font-size: 15px;
+	margin-bottom: 15%;
+}
 }
 
+@media screen and (min-width:425px) and (max-width:768px) {
+	#head{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	object-fit: cover;
+	background-attachment: fixed;
+}
 
+.title h1{
+	font-size: 30px;
+	margin-top: 10%;
+}
 
+.title h2{
+	font-size: 10px;
+	margin-bottom: 10%;
+}
+}
 
+@media screen and (min-width:0px) and (max-width:425px) {
+	#head{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	object-fit: cover;
+	background-attachment: fixed;
+}
 
+.title h1{
+	font-size: 15px;
+	margin-top: 10%;
+}
 
-
+.title h2{
+	font-size: 12px;
+	margin-bottom: 10%;
+}
+}
