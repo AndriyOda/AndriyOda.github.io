@@ -268,7 +268,7 @@ body{
 
 
 
-@media screen and (min-width:0px) and (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:425px) {
 	#head{
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
 	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonding-1985863_1920.jpg);
@@ -300,6 +300,9 @@ body{
 	object-fit: cover;
 	background-repeat: no-repeat;
 	padding-bottom: 50px;
+}
+.h1{
+	font-size: 10px;
 }
 
 }
