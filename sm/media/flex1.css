@@ -1,0 +1,18 @@
+/*.conteiner{
+	justify-content: center;
+	display: flex;
+
+	flex-direction: row-reverse;  в ряд
+}
+
+.element{
+	justify-content: center;
+}*/
+
+.cont{
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

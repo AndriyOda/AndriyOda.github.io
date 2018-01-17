@@ -1,0 +1,15 @@
+.centerRow{
+	display: flex;
+	justify-content: center;
+}
+
+.centerAll{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centerColums{
+	display: flex;
+	align-items: center;
+}
