@@ -1,0 +1,211 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+}
+
+body{
+	overflow: hidden;
+	background: #000;
+}
+
+.display-wrepper{
+	width: 100%;
+	height: 100vh;
+}
+
+.top-display-wrepper{
+	display: flex;
+	object-fit: cover;
+}
+
+.left-wrepper{
+	width: 70%;
+	height: 70vh;
+}
+
+.top-left-wrepper{
+	width: 100%;
+	height: 35vh;
+	overflow: hidden;
+	display: block;
+}
+
+
+
+
+.blockImg1{
+	width: 100%;
+	height: 35vh;
+	overflow: hidden;
+	background: #000;
+}
+
+.blockImg1 img{
+	width: 100%;
+	transition: .3s all ease-in;
+}
+
+.dws:hover .blockImg1 img{
+	transform: scale(1.3);
+	opacity: .5;
+}
+
+.blockText1{
+	width: 70%;
+	height: 35vh;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+}
+
+.text1{
+	width: 70%;
+	height: 35vh;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+
+
+
+
+.blockImgS{
+	width: 100%;
+	height: 70vh;
+	overflow: hidden;
+	background: #000;
+}
+
+.blockImgS img{
+	width: 100%;
+	transition: .3s all ease-in;
+}
+
+.dws:hover .blockImgS img{
+	transform: scale(1.3);
+	opacity: .5;
+}
+
+
+
+
+.blockImg4K{
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+	background: #000;
+}
+
+.blockImg4K img{
+	width: 100%;
+	transition: .3s all ease-in;
+}
+
+.dws:hover .blockImg4K img{
+	transform: scale(1.3);
+	opacity: .5;
+}
+
+
+
+
+
+
+.bottom-left-wrepper{
+	width: 100%;
+	height: 35vh;
+	overflow: hidden;
+	display: block;
+}
+
+.right-wrepper{
+	width: 30%;
+	height: 70vh;
+	overflow: hidden;
+	display: block;
+}
+
+.right-wrepper a{
+	width: 100%;
+	height: 70vh;
+	overflow: hidden;
+	display: block;
+}
+
+.bottom-display-wrepper{
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+	display: block;
+}
+
+
+@media screen and (min-width:0px) and (max-width:1024px) {
+
+
+
+.display-wrepper{
+	width: 100%;
+	height: 100vh;
+}
+
+.top-display-wrepper{
+	display: block;
+	object-fit: cover;
+}
+
+.left-wrepper{
+	width: 100%;
+	height: 50vh;
+}
+
+.top-left-wrepper{
+	width: 100%;
+	height: 25vh;
+	overflow: hidden;
+	display: block;
+}
+
+
+.bottom-left-wrepper{
+	width: 100%;
+	height: 25vh;
+	overflow: hidden;
+	display: block;
+}
+
+.right-wrepper{
+	width: 100%;
+	height: 25vh;
+	overflow: hidden;
+	display: block;
+}
+
+.right-wrepper a{
+	width: 100%;
+	height: 25vh;
+	overflow: hidden;
+	display: block;
+}
+
+.bottom-display-wrepper{
+	width: 100%;
+	height: 25vh;
+	overflow: hidden;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+ 
+} 
