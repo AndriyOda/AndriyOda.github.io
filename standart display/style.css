@@ -2,7 +2,7 @@ body, html{
 	margin: 0;
 	padding: 0;
 	animation: start 1.5s 1;
-	font-family: fantasy;
+	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 }
 
@@ -235,8 +235,8 @@ header{
 .name-wrapper hr{
 	width: 300px;
 	height: 5px;
-	color: #6C9894;
-	background: #6C9894; 
+	color: #D53BA4;
+	background: #D53BA4; 
 }
 
 
@@ -279,27 +279,20 @@ header{
 }
 
 .triangle{
-	width: 0;
-	height: 0
-	border-left: 450px solid rgba(35, 49, 63, 0.2);
-	border-right: 450px solid transparent;
-	border-bottom: 500px solid rgba(35, 49, 63, 0.2);
-	transition: 1s all ease-in-out
+	width: 700px;
+	height: 700px;
+    padding: 50px;
+    background: #23313F;
+    opacity: 0.5;
+    animation: spin 5s ease-in-out infinite;
+	transition: 1s all ease-in-out;
 }
 
-.triangle:hover{
-	width: 0;
-	height: 0
-	border-left: 450px solid rgba(35, 49, 63, 0.9);
-	border-right: 450px solid transparent;
-	border-bottom: 500px solid rgba(35, 49, 63, 0.9);
-	transition: 1s all ease-in-out
-}
 
 .in-i-do-wrepper{
 	position: absolute;
 	margin-left: 40%;
-	width: 800px;
+	width: 600px;
 	font-size: 2rem;
 	color: #23313F;
 }
@@ -521,3 +514,51 @@ header{
 	transform: scale(1.3);
 	transition: .5s all ease-in-out;
 }
+
+
+bt-decorate-block{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+.gallary{
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
