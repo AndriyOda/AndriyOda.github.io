@@ -201,6 +201,58 @@ header{
 	}
 }
 
+@keyframes drcorSpinA{
+    0%{
+        transform: rotate(-6deg);
+        margin-top: 0px;
+        opacity: 0;
+    }
+    
+    20%{
+        transform: rotate(-10deg);
+        margin-top: 5%;
+        opacity: 1;
+    }
+    
+    80%{
+        transform: rotate(-16deg);
+        margin-top: 10%;
+        opacity: 1;
+    }
+    
+    100%{
+        transform: rotate(-26deg);
+        margin-top: 15%;
+        opacity: 0;
+    }
+}
+
+@keyframes drcorSpinB{
+    0%{
+        transform: rotate(6deg);
+        margin-top: 0px;
+        opacity: 0;
+    }
+    
+    20%{
+        transform: rotate(10deg);
+        margin-top: 5%;
+        opacity: 1;
+    }
+    
+    80%{
+        transform: rotate(16deg);
+        margin-top: 10%;
+        opacity: 1;
+    }
+    
+    100%{
+        transform: rotate(26deg);
+        margin-top: 15%;
+        opacity: 0;
+    }
+}
+
 
 
 
@@ -516,17 +568,6 @@ header{
 }
 
 
-bt-decorate-block{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    height: 100px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-}
 
 
 .gallary{
@@ -534,6 +575,119 @@ bt-decorate-block{
     height: 1000px;
     background-color: #fff;
 }
+
+
+.gallery-caption-block{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-caption-block h1{
+    color: #23313F;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 30px;
+}
+
+.immage-block{
+    position: absolute;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.im1{
+    width: 15%;
+    height: 15%;
+    animation: drcorSpinB 2.5s linear infinite;
+    background-image: url(img/front-end.jpeg);
+}
+
+.im2{
+    width: 18%;
+    height: 18%;
+    margin-left: 15%;
+    animation: drcorSpinA 2s linear infinite;
+    background-image: url(img/b-e.jpeg);
+}
+
+.im3{
+    width: 13%;
+    height: 13%;
+    margin-left: 25%;
+    animation: drcorSpinB .81s linear infinite;
+    background-image: url(img/bonding1.jpg);
+}
+
+.im4{
+    width: 17%;
+    height: 17%;
+    margin-left: 40%;
+    animation: drcorSpinB 1.6s linear infinite;
+    background-image: url(img/b-e.jpeg);
+}
+
+.im5{
+    width: 21%;
+    height: 21%;
+    margin-left: 50%;
+    animation: drcorSpinA 3s linear infinite;
+    background-image: url(img/pen-3006462_1920.jp);
+}
+
+.im6{
+    width: 7%;
+    height: 7%;
+    margin-left: 55%;
+    animation: drcorSpinB 1.2s linear infinite;
+    background-image: url(img/b-e.jpeg);
+}
+
+.im7{
+    width: 17%;
+    height: 17%;
+    margin-left: 60%;
+    animation: drcorSpinA 2.1s linear infinite;
+    background-image: url(img/b-e.jpeg);
+}
+
+.im8{
+    width: 23%;
+    height: 23%;
+    margin-left: 75%;
+    animation: drcorSpinA 2.5s linear infinite;
+    background-image: url(img/background-2846221_1920.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
