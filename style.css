@@ -1,210 +1,128 @@
-html,body{
+body{
 	margin: 0;
 	padding: 0;
-	font-family: "Arial", sans-serif;
+	font-family: Roboto, sans-serif;
 }
 
-body{
-	overflow: hidden;
+
+
+
+#wrepper{
+	width: 1139px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 
-.display-wrepper{
-	width: 100%;
-	height: 100vh;
-}
-
-.top-display-wrepper{
+header{
 	display: flex;
-	object-fit: cover;
-}
-
-.left-wrepper{
-	width: 70%;
-	height: 70vh;
-}
-
-.top-left-wrepper{
-	width: 100%;
-	height: 35vh;
-	overflow: hidden;
-	display: block;
+	padding: 20px;
 }
 
 
 
-
-.blockImg1{
-	width: 100%;
-	height: 35vh;
-	overflow: hidden;
-	background: #000;
+.min_header_content{
+	display: flex;
+	align-items: center;
+	margin-top: 107px;
 }
 
-.blockImg1 img{
-	width: 100%;
-	transition: .3s all ease-in;
+p{
+	font-size: 14px;
+	margin-left: 20px;
 }
 
-.dws:hover .blockImg1 img{
-	transform: scale(1.3);
-	opacity: .5;
+.logo{
+	margin-right: 20px
 }
 
-.blockText1{
-	width: 70%;
-	height: 35vh;
+
+.adres{
+	display: flex;
+	align-items: center;
+	padding: 0px;
+}
+
+.namber{
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+.advent{
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+.numbers{
+	margin-left: 50px;
+}
+.adreses{
+
+	margin-left: 50px;
+}
+
+.advents{
+	display: flex;
+	margin-left: 50px;
+
+}
+
+
+.a{
+	display: flex;
+}
+
+.login{
 	position: absolute;
-	top: 30px;
-	left: 30px;
-	right: 30px;
-	bottom: 30px;
+	right: 0;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	margin: 20px;
 }
 
-.text1{
-	width: 70%;
-	height: 35vh;
+.in-menu{
+	padding: 15px; 
+	border-bottom: 1px dotted rgba(0,0,0,0);
+}
+
+.in-menu:hover{
+	border-bottom: 1px dotted #775BA2;
+}
+
+.in-menu a{
+	text-decoration: none;
+}
+
+.active a{
 	color: #fff;
-	text-transform: uppercase;
-	padding: 0 20px;
 }
 
 
-
-
-
-.blockImgS{
-	width: 100%;
-	height: 70vh;
-	overflow: hidden;
-	background: #000;
+.active{
+	background: #775BA2;
+	border-radius: 4px;
 }
 
-.blockImgS img{
-	width: 100%;
-	transition: .3s all ease-in;
+.input{
+	position: absolute;
+	right: 0;
+	padding: 10px;
 }
 
-.dws:hover .blockImgS img{
-	transform: scale(1.3);
-	opacity: .5;
+.filter-text{
+	word-spacing: 20px;
+	margin-left: 50px;
 }
 
-
-
-
-.blockImg4K{
-	width: 100%;
-	height: 30vh;
-	overflow: hidden;
-	background: #000;
+.block-text{
+	display: flex;
+	align-items: center;
 }
 
-.blockImg4K img{
-	width: 100%;
-	transition: .3s all ease-in;
+.descript{
+	font-size: 14px;
 }
-
-.dws:hover .blockImg4K img{
-	transform: scale(1.3);
-	opacity: .5;
-}
-
-
-
-
-
-
-.bottom-left-wrepper{
-	width: 100%;
-	height: 35vh;
-	overflow: hidden;
-	display: block;
-}
-
-.right-wrepper{
-	width: 30%;
-	height: 70vh;
-	overflow: hidden;
-	display: block;
-}
-
-.right-wrepper a{
-	width: 100%;
-	height: 70vh;
-	overflow: hidden;
-	display: block;
-}
-
-.bottom-display-wrepper{
-	width: 100%;
-	height: 30vh;
-	overflow: hidden;
-	display: block;
-}
-
-
-@media screen and (min-width:0px) and (max-width:1024px) {
-
-
-
-.display-wrepper{
-	width: 100%;
-	height: 100vh;
-}
-
-.top-display-wrepper{
-	display: block;
-	object-fit: cover;
-}
-
-.left-wrepper{
-	width: 100%;
-	height: 50vh;
-}
-
-.top-left-wrepper{
-	width: 100%;
-	height: 25vh;
-	overflow: hidden;
-	display: block;
-}
-
-
-.bottom-left-wrepper{
-	width: 100%;
-	height: 25vh;
-	overflow: hidden;
-	display: block;
-}
-
-.right-wrepper{
-	width: 100%;
-	height: 25vh;
-	overflow: hidden;
-	display: block;
-}
-
-.right-wrepper a{
-	width: 100%;
-	height: 25vh;
-	overflow: hidden;
-	display: block;
-}
-
-.bottom-display-wrepper{
-	width: 100%;
-	height: 25vh;
-	overflow: hidden;
-	display: block;
-}
-
-
-
-
-
-
-
-
-
- 
-} 
