@@ -21,7 +21,7 @@ body{
 }
 
 header{
-	padding-bottom: 12rem;
+	padding-bottom: 25vh;
 }
 
 img{
@@ -77,11 +77,21 @@ img{
 	padding-bottom: .5rem;
 }
 
+.wrepper__header_button img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
 .wrepper__header_button_text{
 	font-size: 1.1rem;
 	font-weight: 400;
 	color: #fff;
 	margin-left: .5rem;
+}
+
+.wrepper__header_burger img{
+	width: 2rem;
+	height: 2rem;
 }
 
 .screen-1__content{
@@ -117,6 +127,8 @@ img{
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
+	width: 2.5rem;
+	height: 1rem;
 }
 
 .down__word_more{
