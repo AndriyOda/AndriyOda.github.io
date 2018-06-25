@@ -10,6 +10,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
 }
 
 #screen-1{
@@ -47,22 +48,24 @@ img{
 
 .wrepper__header{
 	align-items: center;
-	-ms-align-items: center;
-	justify-content: space-between; 
+	-ms-align-items: center; 
 }
 
 .wrepper__header_logo img{
 	width: 15rem;
+	margin-right: 2.9rem;
 }
 
 .wrepper__header_tag{
-	font-size: 1.5rem;
+	font-size: 1.49rem;
 	color: #fff;
+	margin-right: 2.9rem;
 }
 
 .wrepper__header_number{
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	color: #fff;
+	margin-right: 2.9rem;
 }
 
 .wrepper__header_button{
@@ -75,6 +78,7 @@ img{
 	padding-right: .8rem;
 	padding-top: .5rem;
 	padding-bottom: .5rem;
+	margin-right: 1.5rem;
 }
 
 .wrepper__header_button img{
@@ -83,15 +87,16 @@ img{
 }
 
 .wrepper__header_button_text{
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-weight: 400;
 	color: #fff;
 	margin-left: .5rem;
+	margin: 0.5rem;
 }
 
 .wrepper__header_burger img{
-	width: 2rem;
-	height: 2rem;
+	width: 3.3rem;
+	height: 3.3rem;
 }
 
 .screen-1__content{
