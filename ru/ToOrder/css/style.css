@@ -161,6 +161,7 @@ ul {
   border-bottom-right-radius: 10px;
   color: #fff;
   position: absolute;
+  opacity: 1;
 }
 .shy-menu.is-open,
 .shy-menu:hover { 
@@ -171,15 +172,19 @@ ul {
   height: 100vh;
   width: 100px;
   z-index: 1;
+  opacity: 1;
 }
 
 .shy-menu-panel { 
   margin-left: -100px;
   z-index: 100;
+  opacity: 0;
 }
 .is-open .shy-menu-panel { 
   margin-left: 0;
+  opacity: 1;
 }
+
 
 /*** Hamburger ***/
 .shy-menu-hamburger {
@@ -372,6 +377,7 @@ ul {
   border-bottom-right-radius: 10px;
   color: #fff;
   position: absolute;
+  opacity: 1;
 }
 .shy-menu.is-open,
 .shy-menu:hover { 
@@ -382,14 +388,17 @@ ul {
   height: 100vh;
   width: 100px;
   z-index: 1;
+  opacity: 1;
 }
 
 .shy-menu-panel { 
   margin-left: -100px;
   z-index: 100;
+  opacity: 0;
 }
 .is-open .shy-menu-panel { 
   margin-left: 0;
+  opacity: 1;
 }
 
 /*** Hamburger ***/
@@ -625,6 +634,7 @@ ul {
   border-bottom-right-radius: 10px;
   color: #fff;
   position: absolute;
+  opacity: 1;
 }
 .shy-menu.is-open,
 .shy-menu:hover { 
@@ -635,14 +645,17 @@ ul {
   height: 100vh;
   width: 100px;
   z-index: 1;
+  opacity: 1;
 }
 
 .shy-menu-panel { 
   margin-left: -100px;
   z-index: 100;
+  opacity: 0;
 }
 .is-open .shy-menu-panel { 
   margin-left: 0;
+  opacity: 1;
 }
 
 /*** Hamburger ***/
