@@ -9,12 +9,9 @@ if (!empty($_POST['name']) AND !empty($_POST['email'] ) {
 	$letter .='Email:'.$_POST['messeng'].'\r\n';
 
 
-	if (mail('kolyaodri.ko@gmail.com', $theme, $letter)){
-      header("Location: /ToOrder/thankyou.html");
-    } else {
-      header("Location: /ToOrder/error.html");
-    }  
+	mail('kolyaodri.ko@gmail.com', $theme, $letter)
+     
               
 } else {
-  header("Location: /ToOrder/no-s.html");
+ 
 }
