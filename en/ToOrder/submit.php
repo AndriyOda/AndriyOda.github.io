@@ -11,7 +11,8 @@ if (!empty($_POST['name']) AND !empty($_POST['email'] ) {
 
 	mail('kolyaodri.ko@gmail.com', $theme, $letter)
      
-              
+	exit;              
 } else {
- 
+ echo "Для отправки сообщения заполните все поля!";
+      exit;
 }
