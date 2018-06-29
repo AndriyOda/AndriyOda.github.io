@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8"/>
+ <title>Library</title>
+ <link href="master.css" rel="stylesheet"/>
+</head>
+<body>
+<section class="section_1_block"><h1>HELLO!</h1></section>
+<section class="section_2_block"><h1>BYE!</h1></section>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+ $(window).on("scroll", function() {
+   if($(window).scrollTop()) {
+     $('section').addClass('opacity');
+   }
+   else {
+    $('section').removeClass('opacity');
+   }
+})
+</script>
+</body>
+</html>
