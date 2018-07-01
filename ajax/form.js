@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$("#form").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "mail.php",
+			url: "andriyoda.github.io/ajax/index.html/mail.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
