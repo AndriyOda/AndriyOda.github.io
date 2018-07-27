@@ -8,6 +8,11 @@ html{
   font-size: 1vw;
 }
 
+li {
+  list-style: none;
+  overflow: hidden;
+}
+
 .wrapper-page{
   width: 100%;
   height: 100%;
@@ -143,8 +148,9 @@ a {
 	left: 45%;
   border-radius: 50%;
   border: 2px solid #4169E1;
-  width: 45px;
-  height: 45px;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
@@ -158,8 +164,9 @@ a {
 	right: 45%;
   border-radius: 50%;
   border: 2px solid #4169E1;
-  width: 45px;
-  height: 45px;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
@@ -199,6 +206,7 @@ header{
 .menu{
   position: relative;
   cursor: pointer;
+  z-index: 4;
 }
 
 .menu-line{
@@ -206,15 +214,19 @@ header{
   height: 2px;
   background-color: #fff;
   cursor: pointer;
+  z-index: 4;
 }
+
+
 
 .menu-line::before{
   content: "";
   position: absolute;
-  top: -.8rem;
+  top: 1.6rem;
   width: 3rem;
   height: 2px;
   background-color: #fff;
+  z-index: 4;
 }
 
 .menu-line::after{
@@ -222,8 +234,87 @@ header{
   position: absolute;
   top: .8rem;
   width: 3rem;
-  height: 2px;
+  height: .1rem;
   background-color: #fff;
+  z-index: 4;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.71);
+  z-index: 1;
+  width: 80%;
+  height: 150vh;
+  position: fixed;
+  border-radius: 50%;
+  right: -50%;
+  bottom: 0;
+  transition: .5s;
+  transform: scale(0) translateY(-50%);
+}
+
+.navActive{
+  transform: scale(1) translateY(0%);
+  transition: .5s;
+}
+
+nav ul {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 1.6rem;
+}
+
+nav ul li:first-child {
+  margin-left: 0px;
+}
+
+nav ul li:nth-child(2) {
+  margin-left: -0.8rem;
+}
+
+nav ul li:nth-child(3) {
+  margin-left: 0px;
+}
+
+nav ul li:nth-child(4) {
+  margin-left: 2.5rem;
+}
+
+li {
+  position: relative;
+  padding: 1rem;
+  width: 8rem;
+  text-align: center;
+  margin: 2.4rem;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: .1rem;
+  height: .1rem;
+  background: rgba(255,255,255, 0.09);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .4s ease-out;
+}
+
+li:hover a::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  background: rgba(255,255,255, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .home-content{
