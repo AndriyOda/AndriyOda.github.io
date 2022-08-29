@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lustria&family=Open+Sans:wght@300;400&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <header class="d-flex">
+
+
+    <div class="nav-page ">
+      <img class="close" src="img/icons/close.jpg" alt="">
+      <nav>
+        <a class="nav-active" href="#">House Plans</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contractors</a>
+        <div class="open-menu open-menu__mobile flex-column d-flex">
+          <a href="#">More <i class="fas fa-chevron-down fa-sm"></i></a>
+          <div class="sub-menu sub-menu__mobile d-flex">
+            <a href="">Our team</a>
+            <a href="">FAQ</a>
+            <a href="">Blog</a>
+            <a href="">How to Choose a Floor Plan</a>
+            <a href="">Energy Efficiency</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+      <div class="contact-block">
+        <p>+1 541 219 1673</p>
+        <p>david@houseofwatkins.com</p>
+      </div>
+    </div>
+  
+    <div class="contact-block">
+      <p>+1 541 219 1673</p>
+      <p>david@houseofwatkins.com</p>
+    </div>
+
+    <div class="logo-block">
+      <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+      <nav class="d-flex">
+        <a class="nav-active" href="#">House Plans</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contractors</a>
+        <div class="open-menu">
+          <a href="#">More <i class="fas fa-chevron-down fa-sm"></i></a>
+          <div class="sub-menu d-flex">
+            <a href="">Our team</a>
+            <a href="">FAQ</a>
+            <a href="">Blog</a>
+            <a href="">How to Choose a Floor Plan</a>
+            <a href="">Energy Efficiency</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="icons d-flex">
+
+        <div class="like-icon">
+          <img src="img/icons/like.jpg" alt="">
+        </div>
+        <div class="cart-icon">
+          <img src="img/icons/cart.jpg" alt="">
+          <div class="meter"></div>
+        </div>
+        <div class="cart-icon navbar">
+          <img src="img/icons/navbar.jpg" alt="">
+        </div>
+    </div>
+
+
+  </header>
+
+  <section id="first-screen">
+    <div class="shop_house-plans-block">
+      <div class="decor top-decot-element"></div>
+      <div class="decor bot-decot-element"></div>
+      <h1>checkout</h1>
+      <h6>
+        <a href="#">Home</a>
+        <a href="">/ Shop House Plans</a>
+        <a href="">/ Quail Run</a>
+        <a href="">/ Cart </a>
+        <a href="">/ Checkout</a>
+      </h6>
+    </div>
+  </section>
+
+  
+
+ <div class="bg">
+  <section id="checkout_form" class="d-flex">
+    <div id="checkout_details" class="column">
+      <hr>
+      <h4>Billing details</h4>
+      <input value="Email address" type="text">
+      <div class="checkout_row d-flex">
+        <input value="First name" type="text">
+        <input value="Last name" type="text">
+      </div>
+      <input value="Company name" type="text">
+      <input value="Country  /   Region" type="text">
+      <div class="checkout_row d-flex">
+        <input value="Street adress" type="text">
+        <input value="Street adress" type="text">
+      </div>
+      <input value="Town  /  City" type="text">
+      <select name="select"> <!--Supplement an id here instead of using 'name'-->
+        <option value="value1" selected>Select an option...</option>
+        <option value="value2">Select 1</option>
+        <option value="value3">Select 2</option>
+      </select>
+      <input value="" type="text">
+      <input value="" type="text">
+      <h4>ADDItionAL InfORmatTION</h4>
+      <textarea cols="30" rows="10">Notes about your order, e.g. special notes for delivery</textarea>
+    </div>
+    
+    <div id="checkout_order" class="column">
+      <h4>YOur ordER</h4>
+      <div class="row d-flex">
+        <h5>product</h5>
+        <h5>subtotal</h5>
+      </div>
+      <div class="checkout_title">
+        <span>Mike & Peggy’s House</span>
+      </div>
+      <div class="checkout_row d-flex">
+        <h5>X 1</h5>
+        <h5>$1500</h5>
+      </div>
+      <div class="checkout_row d-flex">
+        <h5>SUBTOtAL</h5>
+        <h5>$1500</h5>
+      </div>
+      <hr>
+      <div class="checkout_row d-flex">
+        <h5>TOtAL</h5>
+        <h5>$1500</h5>
+      </div>
+      <hr>
+      <p><input type="checkbox">Credit Cards</p>
+      <p>Card Number *</p>
+      <input value="1234 1234 1234 1234" type="text">
+      <p>Expiry Date *</p>
+      <input value="MM  /  YY" type="text">
+      <p>Card code (CVC) *</p>
+      <input value="CVC" type="text">
+      <hr>
+      <p class="d-flex flex-y-center"><input type="checkbox">Paypal<img class="paypal_img" src="img/paypal.jpg" alt=""></p>
+      <h6><input type="checkbox">I have read and agree to the website <a href="">terms and conditions *</a></h6>
+      <button>Place order</button>
+      <p class="checkout_bottom-text">Your personal data will be used to process your order, support your experience. For MORE INFORMATION, READ our privacy policy</p>
+      <img class="checkout_bottom_carts" src="img/cart.jpg" alt="">
+    </div>
+
+  </section>
+ </div>
+  
+
+  
+
+      
+  <div id="checkout_bottom_img" class="bottom-img full_size_background"></div>
+
+  <div id="footer-empty-place" class="footer-empty-place"></div>
+
+
+
+<footer>
+<h2>DISCOVER YOUR DREAM HOME</h2>
+<img class="logo" src="img/logo-ft.png" alt="">
+<div class="eco-block d-flex">
+<img src="img/icons/letter.svg" alt="" class="letter">
+<h3>Energy Efficient Floor Plans</h3>
+</div>
+
+<p>16673 E Mansfield Circle, Aurora, Colorado 80013</p>
+<div class="row d-flex">
+<p>david@houseofwatkins.com </p>
+<p>+1 (541) 219-1673</p>
+</div>
+<nav class="d-flex">
+<a href="">Privacy Policy</a>
+<a href="">FAQ</a>
+<a href="">Terms & Conditions</a>
+<a href="">Buy CAD Files</a>
+<a href="">Specials for Builders</a>
+<a href="">Contact Us</a>
+<a href="">Energy Efficiency</a>
+</nav>
+</footer>
+
+
+
+<!-- script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+<script src="js/common.js"></script>
+
+
+</body>
+
+</html>
